@@ -7,6 +7,6 @@ killall -q polybar
 while pgrep -u $UID -x polybar >/dev/null; do sleep 1; done
 
 # Launch Polybar using default config
-polybar -c /home/aulia/.config/polybar/duhcoeg.ini duhcoeg &
+polybar -c ~/.config/polybar/bar.ini duhcoeg &
 
 echo "Polybar launched..."
