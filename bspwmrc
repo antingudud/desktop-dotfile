@@ -5,8 +5,7 @@ bspc monitor -d  1 2 3 4 5 6 7 8 9 0
 
 ## overlapping border
 
-BW=1
-bspc config border_width         $BW
+bspc config border_width         1
 bspc config window_gap           8
 for side in top right bottom left ; do
 	bspc config $(side)_padding $BW
@@ -35,11 +34,5 @@ bspc rule -a mplayer2 state=floating
 bspc rule -a Kupfer.py focus=on
 bspc rule -a Screenkey manage=off
 # autostart program
-feh --bg-fill "Pictures/Wallpaper/S.T.A.L.K.E.R./screenshot_full_2.png"
+feh --bg-fill ".../screenshot_full_2.png"
 ~/.config/polybar/launch.sh
-picom -b
-nm-applet
-qlipper
-xset +fp /home/aulia/.local/share/fonts
-xset fp rehash
-notify-send "Let's start" "Super + F1 to open keybinds"
