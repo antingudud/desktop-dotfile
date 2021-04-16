@@ -34,5 +34,5 @@ bspc rule -a mplayer2 state=floating
 bspc rule -a Kupfer.py focus=on
 bspc rule -a Screenkey manage=off
 # autostart program
-feh --bg-fill "~/.Picture/screenshot_full_2.png"
+feh --bg-fill "~/.Picture/Kogasa WP 25.png"
 ~/.config/polybar/launch.sh
